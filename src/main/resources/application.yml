@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: one
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        default_schema: ref
+        jdbc:
+          lob:
+            non_contextual_creation: true
