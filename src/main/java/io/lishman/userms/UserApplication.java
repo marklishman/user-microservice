@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @Configuration
 @RestController
-public class UserMsApplication {
+public class UserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserMsApplication.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 }

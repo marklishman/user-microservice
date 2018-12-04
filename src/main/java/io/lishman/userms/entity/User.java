@@ -18,9 +18,9 @@ public class User {
 
     @Id
     private Long userId;
-    @Column(name="fullName")
+    @Column(name = "fullName")
     private String name;
-    @Column(name="user_name")
+    @Column(name = "user_name")
     private String username;
     private String email;
     private String phone;
