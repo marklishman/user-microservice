@@ -1,7 +1,6 @@
 
 # Technologies
 
-* Spring Cloud Config Server (with Refresh)
 * Spring Data Rest
 * Postgres
 
